@@ -1,5 +1,5 @@
 import { createStore } from 'vuex';
-VUE_APP_API_BASE=https://charging-stations-l6eo.onrender.com
+VUE_APP_API_BASE=https://charging-stations-l6eo.onrender.com/api;
 
 const API_BASE = process.env.VUE_APP_API_BASE;
 
