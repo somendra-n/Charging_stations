@@ -1,10 +1,4 @@
-Got it! I'll make your `README.md` more **effective, clear, and practical** by including all the necessary commands, improving structure, and adding a section for a demo video you can upload.
 
-Here’s an enhanced version tailored for your project:
-
----
-
-````markdown
 # Charging Stations Management
 
 A full-stack web application for managing electric vehicle charging stations — built with **Node.js, Express, and Vue.js**.
