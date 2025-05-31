@@ -1,6 +1,6 @@
 import { createStore } from 'vuex';
 
-const API_BASE = 'http://localhost:5000/api'; // adjust as needed
+const API_BASE = 'https://charging-stations-1.onrender.com'; // adjust as needed
 
 export default createStore({
   state: {
