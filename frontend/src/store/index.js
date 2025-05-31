@@ -1,6 +1,7 @@
 import { createStore } from 'vuex';
+VUE_APP_API_BASE=https://charging-stations-l6eo.onrender.com
 
-const API_BASE = 'https://charging-stations-l6eo.onrender.com'; // adjust as needed
+const API_BASE = process.env.VUE_APP_API_BASE;
 
 export default createStore({
   state: {
