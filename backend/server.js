@@ -9,7 +9,7 @@ const app = express();
 
 connectDB(); // connect once here
 
-app.use(cors({ origin: 'https://charging-stations-1.onrender.com' }));
+app.use(cors({ origin: 'https://charging-stations-frontend.onrender.com' }));
 app.use(express.json());
 
 // Routes
