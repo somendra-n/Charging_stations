@@ -1,4 +1,3 @@
-
 # Charging Stations Management
 
 A full-stack web application for managing electric vehicle charging stations — built with **Node.js, Express, and Vue.js**.
@@ -14,25 +13,27 @@ This app allows users to **register/login**, and **manage charging stations** wi
 ## 🛠️ Features
 
 ### Backend (Node.js + Express)
-- REST API with full CRUD for charging stations
-- JWT-based User Authentication (Signup/Login)
-- Protected routes requiring authentication
-- Charging station data: Name, Location (lat/lng), Status, Power Output (kW), Connector Type
-- Database: *Your choice (MongoDB/PostgreSQL/MySQL)*
+
+* REST API with full CRUD for charging stations
+* JWT-based User Authentication (Signup/Login)
+* Protected routes requiring authentication
+* Charging station data: Name, Location (lat/lng), Status, Power Output (kW), Connector Type
+* Database: *Your choice (MongoDB/PostgreSQL/MySQL)*
 
 ### Frontend (Vue.js)
-- User login screen
-- Charger listing with filters (status, power, connector type)
-- Add, Edit, Delete chargers
-- Interactive map view using Google Maps/OpenStreetMap with clickable markers
+
+* User login screen
+* Charger listing with filters (status, power, connector type)
+* Add, Edit, Delete chargers
+* Interactive map view using Google Maps/OpenStreetMap with clickable markers
 
 ---
 
 ## 📋 Prerequisites
 
-- Node.js v14+
-- npm or yarn
-- Running database instance (MongoDB/PostgreSQL/MySQL)
+* Node.js v14+
+* npm or yarn
+* Running database instance (MongoDB/PostgreSQL/MySQL)
 
 ---
 
@@ -55,7 +56,7 @@ npm install
 
 # Start backend server
 npm start
-````
+```
 
 ### Frontend Setup
 
@@ -92,15 +93,21 @@ npm run serve
 
 ---
 
+## 📚 API Documentation
+
+Explore the full API documentation and try endpoints using Postman:
+
+[Charging Stations API - Postman Documentation](https://documenter.getpostman.com/view/41551045/2sB2qgeJiH)
+
+---
+
 ## 🎥 Demo Video
 
 Check out the demo video showcasing the key features of this app:
 
-[![Watch Demo](https://img.youtube.com/vi/Rl4Gm544PmE?feature=shared/0.jpg)](https://youtu.be/Rl4Gm544PmE?feature=shared)
-
+[![Watch Demo](https://img.youtube.com/vi/Rl4Gm544PmE/0.jpg)](https://youtu.be/Rl4Gm544PmE)
 
 ---
-
 
 ## ⚙️ Technologies Used
 
@@ -118,13 +125,6 @@ Check out the demo video showcasing the key features of this app:
 
 ---
 
-
-
 ## 💬 Contact
 
 You can reach me via GitHub or email.
-
----
-
-```
-
