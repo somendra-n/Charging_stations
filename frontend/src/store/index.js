@@ -85,6 +85,11 @@ export default createStore({
   // If your backend returns token and user data on registration:
   localStorage.setItem('token', data.token);
   commit('setUser', data.user);
+},logout({ commit }) {
+  localStorage.removeItem('token');
+  commit('setUser', null);
+  // Redirect to login page
+  window.location.href = '/login'; // assuming your login route is '/login'
 },
 
   },
